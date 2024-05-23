@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAWEN</title>
+    <script src="https://kit.fontawesome.com/2bebc2a5c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header__superior">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="search" placeholder="¿Que deseas buscar?">
+            </div>
+        </div>
+
+        <div class="container__menu"></div>
+
+        <div class="menu">
+            <input type="checkbox" id="check__menu">
+            <label id="#label__check" for="check__menu">
+                <i class="fas fa-bars icon__menu"></i>
+            </label>
+            <nav>
+            <ul>
+                <li><a href="index.html" ></a></li>
+                <li><a href="quienes.html">¿Quienes somos?</a></li>
+                <li><a href="mision.html">Misión y Visión</a></li>
+                <li><a href="productos.html" id="selected" >Nuestros productos</a>
+                    <ul>
+                        <li><a href="productos.html">Nintendo</a></li>
+                        <li><a href="productos.html">Xbox</a></li>
+                        <li><a href="productos.html">Playstation</a></li>
+                        <li><a href="productos.html">Steam</a>
+                    </ul>
+                </li>
+                <li><a href="proveedores.html">Nuestros Proveedores</a></li>
+                <li><a href="clientes.html">Nuestros Clientes</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
+
+            </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <main>
+        <article>
+            <div style="text-align: center;">
+                <h2>Nintendo:</h2>
+            </div>
+            <div>
+                <div>
+                    <ul style="margin-top: 20px;"></ul>
+                    <h1>Nintendo Switch:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>Pantalla: Táctil multi-touch capacitiva OLED de 7 pulgadas (1280x720).</li>
+                        <li>CPU/GPU: Procesador NVIDIA Tegra personalizado.</li>
+                        <li>Resolución: Hasta 1080p en modo TV y hasta 720p en modo portátil.</li>
+                        <li>Almacenamiento: 64 GB.</li>
+                        <li>Batería interna: Batería de iones de litio de 4310mAh.</li>
+                        <li>Salida de video: Hasta 1080p en modo televisor vía HDMI.</li>
+                        <li>Tamaño: 102 mm x 242 mm x 13,9 mm (con los Joy Con acoplados).</li>
+                        <li>Peso: Aproximadamente 320 g (420 g con los Joy Con acoplados).</li>
+                    </ul>
+                    <img src="Nintendo-Switch-PNG.png" alt="Imagen" style="margin-left: 150px; width: 250px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q3,200</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+
+        <article>
+            <div>
+                <div>
+                    <h1>Joycons:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>Aproximadamente 4.02 pulgadas (10.21 cm) de alto</li>
+                        <li> 1.41 pulgadas (3.58 cm) de ancho.</li>
+                        <li> 1.12 pulgadas (2.84 cm) de largo</li>
+                        <li>Joy-Con [L] Acelerómetro Giroscopio </li>
+                        <li>Joy-Con [R] Acelerómetro Giroscopio Cámara infrarroja de movimiento</li>
+                        <li>Vibración HD</li>
+                    
+                    </ul>
+                    <img src="joycon.png" alt="Imagen" style="margin-left: 150px; width: 250px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q849</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+
+        
+        <article>
+            <div style="text-align: center;">
+                <h2>Xbox:</h2>
+            </div>
+            <div>
+                <div>
+                    <ul style="margin-top: 20px;"></ul>
+                    <h1>Xbox Series S:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>CPU: AMD Zen 2 a 3Ghz</li>
+                        <li>GPU: 4 TFLOP con compatibilidad para Ray Tracing y RDNA 2.</li>
+                        <li>RAM: Memoria GDRR6</li>
+                        <li>Almacenamiento: SSD NVMe 512GB</li>
+                        <li>Consola All-Digital</li>
+                        <li>Soporte para reproducción de contenidos a 4K</li>
+                        <li>Reescalado de juegos a 4K</li>
+                     
+                    </ul>
+                    <img src="Xboxseriess.png" alt="Imagen" style="margin-left: 150px; width: 220px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q3,600</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+        <article>
+            <div>
+            </div>
+            <div>
+                <div>
+                    <h1>Xbox Series X:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>CPU: 8 núcleos Zen 2 a 3.8GHz (3.6GHz con SMT)</li>
+                        <li>GPU: 12 TFLOP, 52 CU a 1.825 GHz, RDNA 2 personalizado</li>
+                        <li>Memoria: 16 GB GDDR6.</li>
+                        <li>Almacenamiento interno: SSD NVMe personalizado de 1 TB</li>
+                        <li>Rendimiento objetivo: 4K a 60fps - hasta 120fps</li>
+                    </ul>
+                    <img src="pngimg.com - xbox_PNG101377.png"Imagen" style="margin-left: 150px; width: 250px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q5,200</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+
+
+
+        <article>
+            <div>
+                <div>
+                    <h1>Mando Xbox:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>Control inalámbrico de Xbox</li>
+                        <li>Mayor comodidad.</li>
+                        <li>Mejor rendimiento y uso compartido instantáneo.</li>
+                        <li>funciona muy bien con Xbox One, PC y los dispositivos de juego en la nube. </li>
+                    </ul>
+                    <img src="controlxbox.jpg" alt="Imagen" style="margin-left: 150px; width: 200px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q649</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+        <article>
+            <div style="text-align: center;">
+                <h2>Playstation:</h2>
+            </div>
+            
+            <div>
+                <div>
+                    <ul style="margin-top: 30px;"></ul>
+                    <h1>Playstation 5:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>Procesador: AMD Ryzen ZEN 2 8 Cores, 16 Threads 3,5 GHz</li>
+                        <li>Tarjeta gráfica: AMD Radeon RDNA 2 Based graphics engineup to 2.3 Ghz </li>
+                        <li>Memoria RAM: GDDR6 16 GB 448 GB/S Bandwidth.</li>
+                        <li>SSD: 825 GB 5,5 GB/S Raw</li>
+                        <li>Potencia: PS5 350 WPS, PS5 Digital 340 WPS</li>
+                        <li>Puertos: USB Tipo A (Hi Speed), 2x USB tipo A (Super Speed 10 GB/S)</li>
+                        <li>Audio: Tempest 3D Audio engine</li>
+                    </ul>
+                    <img src="PlayStation_5.png" alt="Imagen" style="margin-left: 150px; width: 200px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q5,500</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+        <article>
+            <div>
+                <div>
+                    <h1>Playstation 4:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>Disco duro entre 500 GB y 1 TB</li>
+                        <li>Resolución máxima de 1080p, frecuencia de actualización máxima de 30 Hertz.</li>
+                        <li>Resolución: Hasta 1080p en modo TV y hasta 720p en modo portátil.</li>
+                        <li>Tarjeta gráfica AMD Radeon con 8 GB de memoria</li>
+                        <li>Sonido 3D posible con los auriculares PlayStation Platinum</li>
+                        <li>1 puerto Ethernet, 2 puertos USB 3, 1 puerto de salida HDMI, 1 salida auxiliar, Bluetooth 4</li>
+                    
+                    </ul>
+                    <img src="PS4.png" alt="Imagen" style="margin-left: 150px; width: 250px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q3,000</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+        <article>
+            <div>
+                <div>
+                    <h1>Mando Playstation:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>Mando inalámbrico DualSense de las consolas PS5</li>
+                        <li>Inmersiva retroalimentación háptica.</li>
+                        <li>Gatillos adaptables dinámicos.</li>
+                        <li>Micrófono integrado. </li>
+                    </ul>
+                    <img src="ControlPS5.png" alt="Imagen" style="margin-left: 150px; width: 200px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q949</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+        <article>
+            <div style="text-align: center;">
+                <h2>Steam:</h2>
+            </div>
+            
+            <div>
+                <div>
+                    <ul style="margin-top: 20px;"></ul>
+                    <h1>Steam Deck:</h1></ul>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <ul style="margin-top: 20px;">
+                        <li>APU de AMD de 6 nm</li>
+                        <li>CPU: Zen 2 de 4 núcleos/8 hilos, 2,4,3,5 GHz (hasta 448 GFLOPS FP32)</li>
+                        <li>GPU: RDNA 2 con 8 unidades de cálculo, 1,6 GHz (1,6 TFLOPS FP32)</li>
+                        <li> 16 GB de RAM LPDDR5 integrada (cuatro canales de 32 bits, 6400 MT/s).</li>
+                        <li>2 sticks analógicos de tamaño completo con toque capacitivo</li>
+                        <li>Respuesta háptica de alta definición</li>
+                    </ul>
+                    <img src="steamdeck.png" alt="Imagen" style="margin-left: 150px; width: 250px; height: auto;">
+                </div>
+            </div>
+            <div>
+                <ul style="margin-top: 20px;"></ul>
+                <h3>
+                    Precio: <span style="color: rgb(94, 189, 221);">Q4,439</span> 
+                    Cantidad: 
+                    <select id="cantidad">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                </h3>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div style="background-color: #333; color: white; text-align: center; padding: 10px;">
+        <p>Conoceréis la verdad y la verdad os hará libres. </p>
+        <section class="buttons">
+            <a href="https://www.facebook.com/u.marianogalvez" class="fa-brands fa-facebook"></a>
+            <a href="https://www.instagram.com/marianogalvez/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.youtube.com/@umarianogalvez" class="fa-brands fa-youtube"></a>
+
+
+        </section>
+        
+        </div>
+
+            </footer>
+            
+</body>
+</html>
